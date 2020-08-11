@@ -1,11 +1,11 @@
 h4 {
-    font-family: "Raleway";
+    font-family: "source sans pro";
 }
 
 .tech-tag {
-    background: black;
+    background: #333;
     border-radius: 0%;
     border-color: transparent;
-    font-family: "Raleway";
+    font-family: "Teko";
     font-size: .85rem;
 }

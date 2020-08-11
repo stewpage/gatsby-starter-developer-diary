@@ -27,7 +27,7 @@ const ArchivePage = ({ data }) => {
 
     return (
         <Layout>
-            <SEO title="Archive" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `graphql`]} />
+            <SEO title="Archive" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `computation`]} />
             <div className="index-main">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />
@@ -69,15 +69,15 @@ export const pageQuery = graphql`
          query ArchiveQuery {
            site {
              siteMetadata {
-               title 
+               title
                author
                labels {
                  tag
-                 tech 
-                 name 
-                 size 
+                 tech
+                 name
+                 size
                  color
-               } 
+               }
              }
            }
            allMarkdownRemark(
@@ -106,4 +106,3 @@ export const pageQuery = graphql`
        `
 
 export default ArchivePage
-

@@ -10,11 +10,9 @@ module.exports = {
     description: `A blog template for web developers that's ready to go out of the box. Feel free to modify it to your liking.`,
     author: siteConfig.author.name,
     contacts: {
-      linkedin: siteConfig.author.contacts.linkedin,
-      github: siteConfig.author.contacts.github,
-      stackoverflow: siteConfig.author.contacts.stackoverflow,
-      freecodecamp: siteConfig.author.contacts.freecodecamp,
       twitter: siteConfig.author.contacts.twitter,
+      googlescholar: siteConfig.author.contacts.googlescholar,
+      linkedin: siteConfig.author.contacts.linkedin,
     },
     labels: siteConfig.labels,
   },
@@ -66,7 +64,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Raleway`,
+          `Teko`,
           `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ]
       }
@@ -80,7 +78,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/interface-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-netlify-cms`

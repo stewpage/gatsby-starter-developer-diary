@@ -1,12 +1,12 @@
 
-p, .title {
-  font-family: "Raleway";
+p, .title{
+  font-family: "source sans pro";
 }
 
 .index-main {
     display: grid;
     grid-template-columns: 1fr 2fr;
-} 
+}
 
 .sidebar {
     width: 90%;

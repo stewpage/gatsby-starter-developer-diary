@@ -5,6 +5,7 @@
   top: 0;
   display: flex;
   flex-direction: column;
+  background-color: #444;
 }
 
 .head-elements {
@@ -17,12 +18,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 0.5rem;
 }
 
 
 .bottom-bar {
   width: 100%;
-  background: black;
+  background: #444;
   display: none;
   flex-direction: row;
   justify-content: space-around;
@@ -33,12 +35,14 @@
   display: none;
 }
 .head-logo {
-  font-family: "Raleway";
-  font-size: 1.75rem;
+  font-family: "Teko";
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 small {
-    font-family: "Raleway";
+    font-family: "Teko";
 }
 
 .mobile-bio-main {

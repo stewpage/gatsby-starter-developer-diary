@@ -26,7 +26,7 @@
 - Social media sharing icons in each post
 - Icons from React Icons (Font Awesome, Devicons, etc,...)
 - Beautiful tech-topic tags to attach to your web-development-related blog posts.
-- Developer-relevant social media icon links, including GitHub, Stack Overflow, and freeCodeCamp.
+- Developer-relevant social media icon links, including GitHub, Stack Overflow, and Google Scholar.
 - Minimalist design makes it highly modifiable; make your own customized contact forms and search components, for example.
 
 ## Getting Started
@@ -94,12 +94,12 @@ published: true
 date: '2019-05-29'
 ---
 ```
-and then add the rest of your content below the frontmatter. 
+and then add the rest of your content below the frontmatter.
 <br>
 
 ## Making Tech Tags
 This starter already includes the tech tags you can see in the live demo. To use them, add the appropriate tag name to the `tags` array in the frontmatter of your post. Consult the `config.js` file to see the tag properties and get the tag name to be supplied to the `tags` array in the frontmatter.<br>
-To make a new tag, create a new "label" in `config.js`, find a suitable svg icon, and paste the svg path in as the value for the "name" property of the label. Have a look at the existing labels in the `config.js` file and all should soon be clear. A good place to look for svg icons is at [simple icons](https://simpleicons.org/). 
+To make a new tag, create a new "label" in `config.js`, find a suitable svg icon, and paste the svg path in as the value for the "name" property of the label. Have a look at the existing labels in the `config.js` file and all should soon be clear. A good place to look for svg icons is at [simple icons](https://simpleicons.org/).
 
 ## Authors
 - Will Ward [@willjw3](https://github.com/willjw3)

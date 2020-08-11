@@ -40,4 +40,3 @@ CustomShareBlock.defaultProps = {
 };
 
 export default CustomShareBlock;
-

@@ -32,7 +32,7 @@ const PostList = (props) => {
 
     return (
         <Layout>
-            <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `graphql`]} />
+            <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `computation`]} />
             <div className="index-main">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />
@@ -85,15 +85,15 @@ export const listQuery = graphql`
          query paginateQuery($skip: Int!, $limit: Int!) {
            site {
              siteMetadata {
-               title 
+               title
                author
                labels {
                  tag
-                 tech 
-                 name 
-                 size 
+                 tech
+                 name
+                 size
                  color
-               } 
+               }
              }
            }
            allMarkdownRemark(

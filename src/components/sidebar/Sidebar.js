@@ -18,17 +18,15 @@ const Sidebar = () => {
                             tagline
                             author
                             contacts {
+                                twitter                                
+                                googlescholar
                                 linkedin
-                                github
-                                stackoverflow
-                                freecodecamp
-                                twitter
                             }
                             labels {
                                 tag
                                 tech
-                                name 
-                                size 
+                                name
+                                size
                                 color
                             }
                         }
