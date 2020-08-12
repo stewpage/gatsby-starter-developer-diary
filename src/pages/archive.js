@@ -27,7 +27,7 @@ const ArchivePage = ({ data }) => {
 
     return (
         <Layout>
-            <SEO title="Archive" keywords={[`gatsby`, `react`, `web development`, `blog`, `computation`]} />
+            <SEO title="Archive" keywords={[`brain computer interface `, `BCI`, `neuroscience`, `blog`, `computation`, `neural interface`]} />
             <div className="index-main">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />
