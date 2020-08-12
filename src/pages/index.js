@@ -6,7 +6,7 @@ import "./index.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
-import TechTag from "../components/tags/TechTag"
+import TechTagPost from "../components/tags/TechTagPost"
 
 const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
     tags.forEach((tag, i) => {
       labels.forEach((label) => {
         if (tag === label.tag) {
-          techTags.push(<TechTag key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
+          techTags.push(<TechTagPost key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
         }
       })
     })
@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `graphql`]} />
+      <SEO title="Home" keywords={[`gatsby`, `react`, `web development`, `blog`, `graphql`]} />
       <div className="index-main">
         <div className="sidebar px-4 py-2">
           <Sidebar />
@@ -47,12 +47,12 @@ const IndexPage = ({ data }) => {
                 >
                   <h2 className="title">{post.node.frontmatter.title}</h2>
                 </Link>
-                <small className="d-block text-info"><i>Posted on {post.node.frontmatter.date}</i>
+                <small className="d-block text-muted"><i>Posted on {post.node.frontmatter.date}</i>
                 </small>
                 <p className="mt-3 d-inline">{post.node.excerpt}</p>
                 <Link
                   to={post.node.fields.slug}
-                  className="text-primary"
+                  className="text-complementary"
                 >
                   <small className="d-inline-block ml-3"> Read full post</small>
                 </Link>
@@ -79,15 +79,15 @@ export const pageQuery = graphql`
          query IndexQuery {
            site {
              siteMetadata {
-               title 
+               title
                author
                labels {
                  tag
-                 tech 
-                 name 
-                 size 
+                 tech
+                 name
+                 size
                  color
-               } 
+               }
              }
            }
            allMarkdownRemark(
@@ -116,4 +116,3 @@ export const pageQuery = graphql`
        `
 
 export default IndexPage
-

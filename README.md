@@ -89,7 +89,7 @@ Add the frontmatter to that markdown file:
 ```
 ---
 title: 'Make a Blog With React'
-tags: ["react", "nodejs"]
+tags: ["react", "stimulation"]
 published: true
 date: '2019-05-29'
 ---

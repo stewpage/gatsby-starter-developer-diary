@@ -1,6 +1,6 @@
 ---
 title: 'JavaScript Regular Expressions and the Test() Method'
-tags: ["javascript"]
+tags: ["computation", "deepdive"]
 published: true
 date: '2019-01-06'
 ---
@@ -117,4 +117,3 @@ Nam elementum augue vel nulla consectetur elementum.
 
 [MDN Web Docs - test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)<br>
 [MDN Web Docs - exec()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
-

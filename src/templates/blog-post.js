@@ -5,13 +5,13 @@ import SEO from "../components/seo"
 import "./blog-post.css"
 
 import Sidebar from "../components/sidebar/Sidebar"
-import TechTag from "../components/tags/TechTag"
+import TechTagPost from "../components/tags/TechTagPost"
 import CustomShareBlock from "../components/CustomShareBlock"
 
 const BlogPost = (props) => {
   const post = props.data.markdownRemark
   const labels = props.data.site.siteMetadata.labels
-  const siteName = props.data.site.siteMetadata.title 
+  const siteName = props.data.site.siteMetadata.title
   const siteUrl = props.data.site.siteMetadata.url
   const url = `${siteUrl}${props.pageContext.slug}`;
   const tags = post.frontmatter.tags
@@ -21,7 +21,7 @@ const BlogPost = (props) => {
     tags.forEach((tag, i) => {
       labels.forEach((label) => {
         if (tag === label.tag) {
-          techTags.push(<TechTag key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
+          techTags.push(<TechTagPost key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
         }
       })
     })
@@ -62,9 +62,9 @@ export const query = graphql`
           title
           labels {
               tag
-              tech 
-              name 
-              size 
+              tech
+              name
+              size
               color
           }
         }

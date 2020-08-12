@@ -53,12 +53,23 @@ small {
 
 
 @media only screen and (max-width: 850px) {
-  .bottom-bar{display: flex;}
+  .bottom-bar{display: flex; height: 3em;}
+  .bottom-bar a{margin-top: 0.4em;}
   .social-links{display: none;}
-  .mobile-pages-main{display: block;}
+  .mobile-pages-main{display: block; font-size: 1.2em;}
   .mobile-bio-main{
+    padding-top: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .mobile-bio-main h4{
+    margin-bottom: 0;
+  }
+  .mobile-bio-main img{
+    margin-right: 1em;
+  }
+  .mobile-bio-main .bio{
+    margin-top: 1em;
   }
 }

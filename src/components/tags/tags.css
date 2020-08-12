@@ -9,3 +9,11 @@ h4 {
     font-family: "Teko";
     font-size: .85rem;
 }
+
+.tech-tag-post {
+    background: #333;
+    /* border-radius: 50%; */
+    height: 0.5rem;
+    width: 2rem;
+    border-color: transparent;
+}

@@ -7,7 +7,7 @@ import "../pages/index.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
-import TechTag from "../components/tags/TechTag"
+import TechTagPost from "../components/tags/TechTagPost"
 
 const Tag = ({ pageContext, data }) => {
     const posts = data.allMarkdownRemark.edges
@@ -24,7 +24,7 @@ const Tag = ({ pageContext, data }) => {
         tags.forEach((tag, i) => {
             labels.forEach((label) => {
                 if (tag === label.tag) {
-                    techTags.push(<TechTag key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
+                    techTags.push(<TechTagPost key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
                 }
             })
         })
@@ -33,7 +33,7 @@ const Tag = ({ pageContext, data }) => {
 
     return (
         <Layout>
-            <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `node.js`, `graphql`]} />
+            <SEO title="Home" keywords={[`gatsby`, `react`, `web development`, `node.js`, `graphql`]} />
             <div className="index-main">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />
@@ -96,17 +96,17 @@ export const pageQuery = graphql`
   query($tag: String) {
     site {
         siteMetadata {
-            title 
+            title
             author
             labels {
                 tag
-                tech 
-                name 
-                size 
+                tech
+                name
+                size
                 color
-            } 
+            }
         }
-    } 
+    }
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }

@@ -9,7 +9,7 @@ const Bio = ({ author, tagline }) => {
         <div className="bio-main w-75">
             <img src={poojarao} style={{ maxWidth: `100px` }} className="profile-img" alt="" />
             <h3 className="mt-2 author-bio">{author}</h3>
-            <small className="text-muted">{tagline}</small>
+            <small>{tagline}</small>
         </div>
     )
 }

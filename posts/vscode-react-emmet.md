@@ -1,6 +1,6 @@
 ---
 title: 'Using Emmet with React in Visual Studio Code - 2019'
-tags: ["react", "vscode"]
+tags: ["stimulation", "recording", "deepdive"]
 published: true
 date: '2019-03-20'
 ---

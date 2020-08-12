@@ -1,6 +1,6 @@
 ---
 title: 'Welcome To My Web Developer Blog'
-tags: ["react", "vscode", "git", "css", "python", "ruby", "java", "angular", "html", "php", "mongodb", "computation", "review" ]
+tags: ["stimulation ", "computation", "review", "deepdive" ]
 published: true
 date: '2018-08-20'
 ---

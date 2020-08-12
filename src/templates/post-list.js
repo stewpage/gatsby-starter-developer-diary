@@ -6,7 +6,7 @@ import "../pages/index.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
-import TechTag from "../components/tags/TechTag"
+import TechTagPost from "../components/tags/TechTagPost"
 
 const PostList = (props) => {
     const posts = props.data.allMarkdownRemark.edges
@@ -22,7 +22,7 @@ const PostList = (props) => {
         tags.forEach((tag, i) => {
             labels.forEach((label) => {
                 if (tag === label.tag) {
-                    techTags.push(<TechTag key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
+                    techTags.push(<TechTagPost key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
                 }
             })
         })
@@ -32,7 +32,7 @@ const PostList = (props) => {
 
     return (
         <Layout>
-            <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `computation`]} />
+            <SEO title="Home" keywords={[`gatsby`, `react`, `web development`, `blog`, `computation`]} />
             <div className="index-main">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />

@@ -12,6 +12,27 @@ p, .title{
     width: 90%;
 }
 
+.text-info{
+  color: #efefef;
+}
+
+.text-dark{
+  font-family: "Teko"
+}
+
+.text-complementary small{
+  color: #333;
+}
+
+.text-complementary small:hover{
+  color: #333;
+  text-decoration: underline;
+}
+
+.text-complementary small:active{
+  color: #555;
+
+}
 
 
 @media only screen and (max-width: 850px) {

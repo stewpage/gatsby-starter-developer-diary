@@ -10,8 +10,10 @@
 
 .page-links {
     margin-top: 3rem;
-    padding-top: 4rem;
-    font-family: "Teko";
+    padding-top: 2rem;
+    font-family: "Source Sans Pro";
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 
@@ -23,6 +25,11 @@
 small, h3, p {
     font-family: 'source sans pro';
 
+}
+
+h4 {
+  font-family: "Teko";
+  font-size: 1em;
 }
 
 .author-bio {
