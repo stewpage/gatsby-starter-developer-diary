@@ -31,7 +31,7 @@ const AboutPage = (props) => {
                     <SEO title="About" />
                     <div className="mt-3">
                         <h2 className="heading">About</h2>
-                        <p><i> This blog is about interfaces. Primarily brain-machine interfaces. Advances in BCI draw from so many other areas — neuroscience, materials, computation, machine learning and imaging. Posts on this blog explore the interfaces between these disciplines, and put them in context of the latest BCI developments. </i></p>
+                        <p><i> This blog is about interfaces. Primarily brain-machine interfaces. Advances in BCI draw from many other areas — neuroscience, materials, computation, machine learning, and imaging. Posts on this blog explore the interfaces between these disciplines and put them in the context of the latest BCI developments. </i></p>
                         <br />
                         <h4>About Me</h4>
                         <div>
