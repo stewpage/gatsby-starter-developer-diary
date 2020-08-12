@@ -5,11 +5,10 @@ import SEO from "../components/seo"
 import "./index.css"
 
 import Sidebar from "../components/sidebar/Sidebar"
-import TechTag from "../components/tags/TechTag"
 
 const AboutPage = (props) => {
     const labels = props.data.site.siteMetadata.labels
-    const aboutTags = ["react", "nodejs", "html", "css"]
+    const aboutTags = ["BCI", "neuroscience", "Pooja Rao", "brain computer interface"]
     const tags = {}
     labels.forEach(label => {
         aboutTags.forEach(tag => {

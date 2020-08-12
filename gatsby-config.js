@@ -1,6 +1,9 @@
 'use strict'
 
 const siteConfig = require("./config")
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
 
 module.exports = {
   siteMetadata: {
@@ -25,6 +28,12 @@ module.exports = {
       options: {
         path: `${__dirname}/posts`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GA_TRACKING_ID
       },
     },
     {
