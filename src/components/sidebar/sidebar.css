@@ -35,3 +35,7 @@ h4 {
 .author-bio {
     font-size: 2vw;
 }
+
+.page-links a{
+  color: #444 !important;
+}

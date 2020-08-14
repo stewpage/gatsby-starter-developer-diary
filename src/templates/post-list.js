@@ -55,7 +55,7 @@ const PostList = (props) => {
                                     to={post.node.fields.slug}
                                     className="text-primary"
                                 >
-                                    <small className="d-inline-block ml-3"> Read full post</small>
+                                    <small className="d-inline-block ml-3">Read full post</small>
                                 </Link>
                                 <div className="d-block">
                                     {getTechTags(tags)}

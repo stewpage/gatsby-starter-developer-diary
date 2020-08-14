@@ -10,7 +10,7 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     tagline: siteConfig.tagline,
-    description: `A blog template for web developers that's ready to go out of the box. Feel free to modify it to your liking.`,
+    description: `This blog is about interfaces. Primarily brain-machine interfaces.`,
     author: siteConfig.author.name,
     contacts: {
       twitter: siteConfig.author.contacts.twitter,
@@ -63,7 +63,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 200,
+              maxWidth: 1000,
             },
           },
         ],

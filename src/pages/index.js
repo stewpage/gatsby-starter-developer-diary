@@ -6,6 +6,7 @@ import "./index.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
+import MobileBio from "../components/header/MobileBio"
 import TechTagPost from "../components/tags/TechTagPost"
 
 const IndexPage = ({ data }) => {
@@ -28,17 +29,18 @@ const IndexPage = ({ data }) => {
     return techTags
   }
 
-
   return (
     <Layout>
       <SEO title="Home" keywords={[`brain computer interface `, `BCI`, `neuroscience`, `blog`, `computation`, `neural interface`]} />
+      <MobileBio />
       <div className="index-main">
-        <div className="sidebar px-4 py-2">
+        <div className="sidebar px-4 py-2 mt-5">
           <Sidebar />
         </div>
         <div className="post-list-main">
           {posts.map((post) => {
             const tags = post.node.frontmatter.tags
+            console.log(post.node.frontmatter);
             return (
               <div key={post.node.id} className="container mt-5">
                 <Link
@@ -54,7 +56,7 @@ const IndexPage = ({ data }) => {
                   to={post.node.fields.slug}
                   className="text-complementary"
                 >
-                  <small className="d-inline-block ml-3"> Read full post</small>
+                  <small className="d-inline-block ml-3">Read full post</small>
                 </Link>
                 <div className="d-block">
                   {getTechTags(tags)}
@@ -91,7 +93,7 @@ export const pageQuery = graphql`
              }
            }
            allMarkdownRemark(
-             limit: 3
+             limit: 4
              sort: { fields: [frontmatter___date], order: DESC }
              filter: { frontmatter: { published: { eq: true } } }
            ) {
@@ -105,6 +107,7 @@ export const pageQuery = graphql`
                    title
                    date(formatString: "MMMM DD, YYYY")
                    tags
+                   featuredImage
                  }
                  fields {
                    slug

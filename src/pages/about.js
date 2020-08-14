@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "./index.css"
+import "./about.css"
 
 import Sidebar from "../components/sidebar/Sidebar"
 
@@ -21,7 +21,7 @@ const AboutPage = (props) => {
     return (
         <Layout>
             <SEO title="About" />
-            <div className="post-page-main">
+            <div className="about-page">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />
                 </div>

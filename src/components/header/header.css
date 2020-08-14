@@ -47,7 +47,7 @@ small {
 
 .mobile-bio-main {
   background: white;
-  display: none;
+  /* display: none; */
 }
 
 
@@ -58,7 +58,7 @@ small {
   .social-links{display: none;}
   .mobile-pages-main{display: block; font-size: 1.2em;}
   .mobile-bio-main{
-    padding-top: 2em;
+    padding-top: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,10 +66,17 @@ small {
   .mobile-bio-main h4{
     margin-bottom: 0;
   }
+
+  .mobile-bio-main p{
+    font-size: 2vh;
+  }
   .mobile-bio-main img{
     margin-right: 1em;
   }
   .mobile-bio-main .bio{
     margin-top: 1em;
+  }
+  .head-logo {
+    font-size: 6vh;
   }
 }

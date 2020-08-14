@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import "./blog-post.css"
 
 import Sidebar from "../components/sidebar/Sidebar"
-import TechTagPost from "../components/tags/TechTagPost"
+import TechTag from "../components/tags/TechTag"
 import CustomShareBlock from "../components/CustomShareBlock"
 
 const BlogPost = (props) => {
@@ -21,7 +21,7 @@ const BlogPost = (props) => {
     tags.forEach((tag, i) => {
       labels.forEach((label) => {
         if (tag === label.tag) {
-          techTags.push(<TechTagPost key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
+          techTags.push(<TechTag key={i} tag={label.tag} tech={label.tech} name={label.name} size={label.size} color={label.color} />)
         }
       })
     })
@@ -35,7 +35,8 @@ const BlogPost = (props) => {
         <div className="sidebar px-4 py-2">
           <Sidebar />
         </div>
-
+        <div>
+        </div>
         <div className="post-main">
           <SEO title={post.frontmatter.title} />
           <div className="mt-3">
