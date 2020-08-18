@@ -7593,6 +7593,11 @@ graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
+grapheme-splitter@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz#9cf3a665c6247479896834af35cf1dbb4400767e"
+  integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
+
 graphql-compose@^6.3.8:
   version "6.3.8"
   resolved "https://registry.yarnpkg.com/graphql-compose/-/graphql-compose-6.3.8.tgz#9f82a85d5001a83adf1f7c4d3b5e5f72c432a062"
@@ -9726,6 +9731,11 @@ lodash.toarray@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-4.4.0.tgz#24c4bfcd6b2fba38bfd0594db1179d8e9b656561"
   integrity sha1-JMS/zWsvuji/0FlNsRedjptlZWE=
+
+lodash.trimend@^4.5.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/lodash.trimend/-/lodash.trimend-4.5.1.tgz#12804437286b98cad8996b79414e11300114082f"
+  integrity sha1-EoBENyhrmMrYmWt5QU4RMAEUCC8=
 
 lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   version "4.5.0"
@@ -13443,6 +13453,16 @@ remark-footnotes@1.0.0:
   resolved "https://registry.yarnpkg.com/remark-footnotes/-/remark-footnotes-1.0.0.tgz#9c7a97f9a89397858a50033373020b1ea2aad011"
   integrity sha512-X9Ncj4cj3/CIvLI2Z9IobHtVi8FVdUrdJkCNaL9kdX8ohfsi18DXHsCVd/A7ssARBdccdDb5ODnt62WuEWaM/g==
 
+remark-grid-tables@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/remark-grid-tables/-/remark-grid-tables-2.1.1.tgz#c88683ec89d35498fd86e79af3450776f9d76f6a"
+  integrity sha512-YNI57fKiHdwkOGfDoT8xCqSBYjvuu6ZIUOtbvxr8wrvp59dHwzOcusAuzJYXrbnPtjLzNvvNPNbURW8ytrfLfA==
+  dependencies:
+    grapheme-splitter "^1.0.4"
+    lodash.trimend "^4.5.1"
+    string-width "^4.2.0"
+    unist-util-visit "^2.0.1"
+
 remark-mdx@^2.0.0-next.4, remark-mdx@^2.0.0-next.7:
   version "2.0.0-next.7"
   resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-2.0.0-next.7.tgz#e8d4e4fe2c2a98bb34e10304c6e6f2823ba56dfb"
@@ -15838,7 +15858,7 @@ unist-util-visit-parents@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^4.0.0"
 
-unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.2:
+unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.1, unist-util-visit@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-2.0.3.tgz#c3703893146df47203bb8a9795af47d7b971208c"
   integrity sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==

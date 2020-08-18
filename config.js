@@ -9,7 +9,7 @@ module.exports = {
     name: "POOJA RAO",
     bio: "Neuroscientist, physician and data scientist",
     contacts: {
-      twitter: "https://twitter.com/https://twitter.com/_PoojaRao",
+      twitter: "https://twitter.com/_PoojaRao",
       googlescholar: "https://scholar.google.com/citations?user=cudpfV8AAAAJ&hl=en",
       linkedin: "https://www.linkedin.com/in/raopooja/",
     },

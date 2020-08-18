@@ -21,6 +21,33 @@
   text-decoration: underline;
 }
 
+.post-main table{
+  table-layout: fixed;
+  font-family: "source sans pro";
+  font-size: 0.9rem;
+}
+
+.post-main table td{
+border: none;
+}
+
+.post-main table td:first-child, th:first-child{
+    font-weight: 600;
+    text-align: right;
+}​
+
+
+.post-main table .wide{
+  width: 30%;
+}
+
+.post-main table .wider{
+  width: 35%;
+}
+
+
+.post-main table tr:nth-child(even) {background-color: #f2f2f2;}
+
 
 
 @media only screen and (max-width: 850px) {
