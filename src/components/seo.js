@@ -11,7 +11,7 @@ import Helmet from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, image}) {
+function SEO({ description, lang, meta, title, image, excerpt}) {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(
     graphql`
@@ -56,11 +56,11 @@ function SEO({ description, lang, meta, title, image}) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: seo.description,
         },
         {
           property: `og:title`,
-          content: title,
+          content: seo.title,
         },
         {
           property: `og:description`,
@@ -92,11 +92,11 @@ function SEO({ description, lang, meta, title, image}) {
         },
         {
           property: `og:image:width`,
-          content: "400",
+          content: "1200",
         },
         {
           property: `og:image:height`,
-          content: "50",
+          content: "630",
         },
       ].concat(meta)}
     />

@@ -2,7 +2,7 @@
 title: 'Why Model Systems are Indispensable for BCI Research'
 tags: ["review" ]
 published: true
-featuredImage: ./neurons_array.png
+featuredImage: /images/neurons_array.png
 date: '2020-08-18'
 ---
 

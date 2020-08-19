@@ -30,7 +30,11 @@ const BlogPost = (props) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        image={post.frontmatter.featuredImage}
+        description={post.excerpt}
+      />
       <div className="post-page-main">
         <div className="sidebar px-4 py-2">
           <Sidebar />
@@ -38,7 +42,11 @@ const BlogPost = (props) => {
         <div>
         </div>
         <div className="post-main">
-          <SEO title={post.frontmatter.title} />
+          <SEO
+          title={post.frontmatter.title}
+          image={post.frontmatter.featuredImage}
+          description={post.excerpt}
+          />
           <div className="mt-3">
             <h2 className="heading">{post.frontmatter.title}</h2>
             <div className="d-block">
@@ -72,10 +80,12 @@ export const query = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      excerpt
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
         tags
+        featuredImage
       }
     }
   }

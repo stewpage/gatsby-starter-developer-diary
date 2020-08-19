@@ -2,7 +2,7 @@
 title: 'How to Build a Neural Interface: Lessons from Cochlear Implants'
 tags: ["stimulation", "deepdive" ]
 published: true
-featuredImage: ./sven-read-CfuY5XMJHsA-unsplash.jpg
+featuredImage: /images/sven-read-CfuY5XMJHsA-unsplash.jpg
 date: '2020-08-08'
 ---
 
