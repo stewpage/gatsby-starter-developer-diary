@@ -8,14 +8,19 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
+import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, image}) {
+  const { pathname } = useLocation()
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
+            defaultTitle: title
+            siteUrl: url
+            defaultImage: image
             title
             description
             author
@@ -25,7 +30,20 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
+  const {
+    defaultTitle,
+    defaultDescription,
+    siteUrl,
+    defaultImage,
+  } = site.siteMetadata
+
   const metaDescription = description || site.siteMetadata.description
+  const seo = {
+     title: title || defaultTitle,
+     description: description || defaultDescription,
+     image: `${siteUrl}${image || defaultImage}`,
+     url: `${siteUrl}${pathname}`,
+   }
 
   return (
     <Helmet
@@ -34,6 +52,7 @@ function SEO({ description, lang, meta, title }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+
       meta={[
         {
           name: `description`,
@@ -67,8 +86,21 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `og:image`,
+          content: seo.image,
+        },
+        {
+          name: `og:image:width`,
+          content: "400",
+        },
+        {
+          name: `og:image:height`,
+          content: "50",
+        },
       ].concat(meta)}
     />
+
   )
 }
 

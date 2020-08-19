@@ -8,6 +8,8 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     url: siteConfig.url,
+    siteUrl: `https://from-the-interface.com`, //change this when changing URL
+    image: '/images/cables.jpg', // Path to your image you placed in the 'static' folder
     title: siteConfig.title,
     tagline: siteConfig.tagline,
     description: `This blog is about interfaces. Primarily brain-machine interfaces.`,
@@ -22,6 +24,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
+    "gatsby-plugin-open-graph-images",
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,

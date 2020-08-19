@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = {
-  url: "https://developer-diary.netlify.com",
+  url: "https://from-the-interface.com",
   title: "From the Interface",
   tagline: "Writings from the neural interface",
   copyright: "© 2020 Pooja Rao, All rights reserved",
