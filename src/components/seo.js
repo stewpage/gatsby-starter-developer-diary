@@ -64,7 +64,7 @@ function SEO({ description, lang, meta, title, image, excerpt}) {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: seo.description,
         },
         {
           property: `og:type`,
@@ -72,7 +72,7 @@ function SEO({ description, lang, meta, title, image, excerpt}) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -83,8 +83,12 @@ function SEO({ description, lang, meta, title, image, excerpt}) {
           content: title,
         },
         {
+          name: `twitter:image`,
+          content: seo.image,
+        },
+        {
           name: `twitter:description`,
-          content: metaDescription,
+          content: seo.description,
         },
         {
           property: `og:image`,

@@ -24,9 +24,9 @@ to pass outwards. The number of components that have to be developed,
 tested, and perfected before you can build a functional BCI is immense.
 
 This is where model systems come in. The better we understand and
-develop these components --- basic neurobiology, materials and
+develop these components — basic neurobiology, materials and
 biocompatibility, imaging techniques, stimulation and recording methods,
-and signal decoding --- the faster and safer the path to BCI.
+and signal decoding — the faster and safer the path to BCI.
 
 Scientists have done fascinating work with two-dimensional cultures of
 neurons. In one of the more well-known applications, a group trained a
@@ -34,7 +34,7 @@ cultured dish of rat neurons [to fly a
 plane](https://www.seeker.com/brain-in-a-dish-flies-plane-1766088867.html)
 in simulations of various weather conditions. Gimmicks aside, growing
 rat or human neurons on multielectrode arrays provides a way to study
-the activity of neural networks -- albeit artificial ones. A neuronal
+the activity of neural networks — albeit artificial ones. A neuronal
 culture is an elaborate and spontaneously active living neural network,
 but it is not likely that its organization has any correlations with
 real-life networks. The neuron culture technique has been standardized
@@ -82,7 +82,7 @@ between behavior and neuronal activity, primarily odor.
 <small class="caption">The <a href="https://backyardbrains.com/products/roboroach">RoboRoach Bundle</a> from Backyard Brains</small>
 
 Rodent models are usually the first stop for testing invasive BCI
-prototypes-- whether they are
+prototypes— whether they are
 [head-mounted](https://www.biorxiv.org/content/10.1101/703801v4)
 recorders, or
 [sono-optogenetics](https://science.sciencemag.org/content/369/6504/638)
