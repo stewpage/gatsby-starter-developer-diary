@@ -21,6 +21,10 @@
   text-decoration: underline;
 }
 
+.post-main li{
+  font-family: "source sans pro";
+}
+
 .post-main table{
   table-layout: fixed;
   font-family: "source sans pro";
