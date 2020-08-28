@@ -75,15 +75,16 @@ advocates for common open standards that move the field forward. These
 organizations are fundamental to moving BCI research forward, but not
 visible at all when you use the 'funding' lens to look at the field.
 
-<iframe title="Funding for Invasive Neural Interfaces" aria-label="chart" id="datawrapper-chart-6IH5F" src="https://datawrapper.dwcdn.net/6IH5F/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
-
 Even companies like
 [Neuralink](https://waitbutwhy.com/2017/04/neuralink.html) who purport
 to want to eventually build a consumer device, are building medical
 devices first. Let's narrow the focus to invasive neural interfaces for
 medical use and include some of the older neural interfaces that were
 conceptualized in the 1990s and early 2000s.
+
+<iframe title="Funding for Invasive Neural Interfaces" aria-label="chart" id="datawrapper-chart-6IH5F" src="https://datawrapper.dwcdn.net/6IH5F/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
 
 Technology that requires surgery to implant an interface that will stay
 in the body for years, stimulating or recording from the nervous system
