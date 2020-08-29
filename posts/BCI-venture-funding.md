@@ -186,6 +186,6 @@ This post does not include companies
 
 *   Companies that are no longer in business (Retinal Implants AG)
 
-*   Wetware companies (Koniku, NETI)
+*   Wetware companies (Koniku, NETRI)
 
 *  All EEG headset manufacturers (too many to list)
