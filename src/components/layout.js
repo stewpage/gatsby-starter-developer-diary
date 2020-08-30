@@ -27,6 +27,7 @@ const Layout = ({ children }) => {
               twitter
               googlescholar
               linkedin
+              rss
             }
           }
         }

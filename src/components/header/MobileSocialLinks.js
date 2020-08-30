@@ -2,7 +2,8 @@ import React from "react";
 import {
     FaTwitterSquare,
     FaGraduationCap,
-    FaLinkedin
+    FaLinkedin,
+    FaRss
 
 } from "react-icons/fa"
 
@@ -27,6 +28,12 @@ const MobileSocialLinks = ({ contacts }) => {
                 href={contacts.googlescholar}>
                 <span title="googleScholar">
                     <FaGraduationCap size={26} style={{ color: "#dedede" }} />
+                </span>
+            </a>
+            <a className="text-success"
+                href={contacts.rss}>
+                <span title="grss">
+                    <FaRss size={26} style={{ color: "#dedede" }} />
                 </span>
             </a>
         </div>

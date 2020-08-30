@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import { FaTwitter, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaFacebook, FaEnvelope, FaRss } from "react-icons/fa";
 import { ShareBlockStandard, ShareButtonIconOnly } from "react-custom-share";
 
 const CustomShareBlock = props => {
@@ -14,7 +14,8 @@ const CustomShareBlock = props => {
             { network: "Twitter", icon: FaTwitter },
             { network: "Facebook", icon: FaFacebook },
             { network: "Linkedin", icon: FaLinkedin },
-            { network: "Email", icon: FaEnvelope }
+            { network: "Email", icon: FaEnvelope },
+            {network: "RSS", icon: FaRss}
         ],
         text: title,
         longtext: siteName

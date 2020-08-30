@@ -18,9 +18,10 @@ const Sidebar = () => {
                             tagline
                             author
                             contacts {
-                                twitter                                
+                                twitter
                                 googlescholar
                                 linkedin
+                                rss
                             }
                             labels {
                                 tag

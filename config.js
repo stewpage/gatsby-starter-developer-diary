@@ -12,6 +12,7 @@ module.exports = {
       twitter: "https://twitter.com/_PoojaRao",
       googlescholar: "https://scholar.google.com/citations?user=cudpfV8AAAAJ&hl=en",
       linkedin: "https://www.linkedin.com/in/raopooja/",
+      rss: "https://from-the-interface.com/rss.xml"
     },
   },
   labels: [
