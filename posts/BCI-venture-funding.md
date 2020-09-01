@@ -2,7 +2,7 @@
 title: 'Funding for Brain-Computer Interface Ventures'
 tags: ["review"]
 published: true
-featuredImage: /images/5PbUm-funding-for-neural-interface-ventures
+featuredImage: /images/5PbUm-funding-for-neural-interface-ventures.png
 date: '2020-08-28'
 ---
 
