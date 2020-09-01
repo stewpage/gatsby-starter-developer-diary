@@ -18,12 +18,6 @@ const SocialLinks = ({ contacts }) => {
                 </span>
             </a>
             <a className="text-secondary p-2"
-                href={contacts.googlescholar}>
-                <span title="googleScholar">
-                    <FaGraduationCap size={26} style={{ color: "secondary" }} />
-                </span>
-            </a>
-            <a className="text-secondary p-2"
                 href={contacts.linkedin}>
                 <span title="Linked In">
                     <FaLinkedin size={26} style={{ color: "secondary" }} />

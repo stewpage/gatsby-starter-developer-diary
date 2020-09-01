@@ -189,3 +189,7 @@ This post does not include companies
 *   Wetware companies (Koniku, NETRI)
 
 *  All EEG headset manufacturers (too many to list)
+
+####Edits
+
+* 31 Aug 2020: Added Neuropace funding USD 67M to chart 2
