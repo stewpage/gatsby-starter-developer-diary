@@ -2,7 +2,7 @@
 title: 'Closed-loop brain-computer interfaces'
 tags: ["review", "stimulation", "recording" ]
 published: true
-featuredImage: /images/neurons_array.png
+featuredImage: /images/Neuropace_X_ray.png
 date: '2020-09-27'
 ---
 
@@ -10,14 +10,17 @@ date: '2020-09-27'
 to the brain in real-time. This post lists current closed-loop human BCI
 devices and their applications.*
 
+![](../src/images/Neuropace_X_ray.png)
+<small class="caption"> X-rays from patients implanted with the Neuropace RNS device for epilepsy treatment. Picture from <a href="https://pubmed.ncbi.nlm.nih.gov/25141960/">Morell et al. 2014</a></small>
+
 In a roundabout way, all our computers and phones are closed-loop
 brain-computer interfaces. Let's narrow the focus to BCIs that
 communicate 'directly' with the brain, bypassing our natural mechanisms
-for input (vision, hearing, touch, taste) our output (speech,
+for input (vision, hearing, touch, taste) or output (speech,
 writing/typing, or gestures).
 
-What qualifies as a closed-loop brain-computer interface (BCI)? A
-synthetic interface with the brain that records neural activity and
+**What qualifies as a closed-loop brain-computer interface (BCI)?**
+A synthetic interface with the brain that records neural activity and
 processes it in real time to decide when to stimulate the brain directly
 or indirectly.
 
@@ -74,6 +77,9 @@ Other comparable products like the lower-priced
 '[Flowtime](https://www.amazon.com/Flowtime-Biosensing-Meditation-Brainwave-Mindfulness/dp/B0824L385C/ref=sr_1_4?dchild=1&keywords=emotiv&qid=1600645992&sr=8-4)'
 are also available for purchase.
 
+![](../src/images/muse-s-provides-meditation-experiences-that-lull-you-into-restful-sleep-3.jpg)
+<small class="caption"> Muses's meditation and sleep headband. Picture from <a href="https://gadgetsandwearables.com/2020/01/05/muse-s/">Gadgets and Wearables review</a></small>
+
 ##Sleep
 
 While the MUSE offers some sleep features, the [Dreem
@@ -99,12 +105,12 @@ presumably displays stress and attention levels across the day or during
 activities. It is not clear how (or if) the feedback is used to guide or
 nudge workers.
 
-The gaming industry does appear to have invested in reasearch into closed-loop
-BCIs that respond to attention-like cues gathered directly from EEG.
-Valve's
+![](../src/images/adaptable-neurotech-workplace-3-1024x876.jpg)
+<small class="caption"> <a href="https://www.emotiv.com/workplace-wellness-safety-and-productivity-mn8/">Emotiv's</a> representation of the use of a BCI device for monitoring stress and attention at work</small>
 
-[experimental
-psychologist describes](https://www.youtube.com/watch?v=gvjzPUtD2WY)
+The gaming industry appears to have invested in research into closed-loop
+BCIs that respond to attention-like cues gathered directly from EEG.
+Valve's [experimental psychologist describes](https://www.youtube.com/watch?v=gvjzPUtD2WY)
 using signals from BCI to engage the player for longer, responding to
 signs of stress, tiredness, or boredom by changing the level of
 difficulty of the game. Smaller developers like
@@ -134,8 +140,8 @@ and decide whether to trigger stimulation. A
 prototype version showed a small improvement in subjects' ability to
 remember words, using a machine learning algorithm to close the loop.
 Now, coupled with a Cortera Technologies' [wireless neuromodulation
-device](https://www.nature.com/articles/s41551-018-0323-x) Nia
-Therapeutics is building the prototype to clinical functionality,
+device](https://www.nature.com/articles/s41551-018-0323-x), Nia
+Therapeutics is further developing the prototype,
 focusing first on a device targeted at patients with traumatic brain
 injury.
 
@@ -155,10 +161,13 @@ company recently received a second FDA approval and raised funding to
 [support commercial
 expansion](https://www.businesswire.com/news/home/20200831005199/en/NeuroPace-Raises-67-Million-Financing-to-Support-Commercial-Expansion-of-the-RNS®-System-for-Refractory-Epilepsy).
 
+![](../src/images/Neuropace.jpg)
+<small class="caption">Neuropace's RNS system</small>
+
 ---
 
 The experimental invasive hippocampal and temporal lobe BCIs seem very
 far from the everyday usability of the sleep-monitoring and
 meditation-enhancing headbands. What they all have in common is that
 they interpret the language of our neurons and allow us new ways to talk
-back to them -— without having to learn their language first.
+back to them — without having to learn their language first.
