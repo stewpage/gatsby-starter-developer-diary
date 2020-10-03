@@ -159,7 +159,7 @@ continue to award grants to further the technology.
 </script>
 
 Another notable agency involved deeply in United States BCI development
-is the Defense Advanced Research Projects Agency or DARPA. About half of
+is the Defense Advanced Research Projects Agency or DARPA. More than half of
 invasive neural interface technology companies in the US are directly or
 indirectly funded by DARPA. The agency has taken an interest in BCI
 development for decades and [continues to
