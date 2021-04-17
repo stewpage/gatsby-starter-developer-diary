@@ -24,7 +24,7 @@ was funded by the RE-NET program, and the prosthetic limbs used by early
 Braingate trials were funded by the 'Revolutionizing Prosthetics'
 program. Startups like Nia Therapeutics, Paradromics, and the recently
 acquired Iota Biosciences also owe DARPA either for direct investment
-or for funding of the underlying technology
+or for funding of the underlying technology.
 
 The Agency funds multi-million-dollar research programs that typically
 last 4 years and have very specific ambitious goals. DARPA announces programs
