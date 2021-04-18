@@ -163,13 +163,13 @@ The Chinese manufacturers [PINS
 Medical](http://www.pinsmedical.com/html/en/) and
 [Sceneray](http://www.sceneray.com/en/product) offer DBS systems
 on par with, if not more advanced than their Western equivalents.
-Both companies' devices are approved for use by the Chinese FDA and have
+Both companies' devices are approved for use by the Chinese FDA, have
 the European CE mark and have been introduced to markets like Pakistan,
 Bangladesh, and Indonesia. Both companies offer advanced remote wireless
-programming of the implants, with well-established methods for remote
+control of the implants, with well-established methods for remote
 programming and calibration of the devices and monitoring battery levels
 through telemedicine by clinicians that may be far away — a feature
-that has been rendered invaluable during the COVID-19 pandemic.
+that has been rendered invaluable [during the COVID-19 pandemic](https://link.springer.com/article/10.1007/s00415-020-10273-z).
 Additionally, both companies are expanding to invasive and non-invasive
 vagal nerve stimulators and spinal cord stimulation devices.
 
