@@ -51,5 +51,12 @@ module.exports = {
       size: 20,
       color: "#F28482",
     },
+    {
+      tag: "funding",
+      tech: "Funding",
+      name: "funding",
+      size: 20,
+      color: "#65c1e8",
+    },
   ],
 }

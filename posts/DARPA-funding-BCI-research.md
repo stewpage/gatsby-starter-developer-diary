@@ -1,6 +1,6 @@
 ---
 title: 'How DARPA drives Brain Machine Interface Research'
-tags: ["review"]
+tags: ["review", "funding"]
 published: true
 featuredImage: /images/darpas-brain-computer-interface-programs.png
 date: '2020-11-22'
