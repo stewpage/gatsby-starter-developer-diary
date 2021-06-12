@@ -8,7 +8,7 @@ import Sidebar from "../components/sidebar/Sidebar"
 
 const AboutPage = (props) => {
     const labels = props.data.site.siteMetadata.labels
-    const aboutTags = ["BCI", "neuroscience", "Pooja Rao", "brain computer interface"]
+    const aboutTags = ["BCI", "neuroscience", "Pooja Rao", "brain computer interface", "neural interface"]
     const tags = {}
     labels.forEach(label => {
         aboutTags.forEach(tag => {
