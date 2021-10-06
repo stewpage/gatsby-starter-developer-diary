@@ -25,9 +25,9 @@ them read our thoughts (and maybe write them!?) so that we can transcend
 our human limitations.
 
 The technology that ushers in this sci-fi future will probably be much
-more prosaic (and safer) than Neuralink's invasive
+more prosaic — and safer — than Neuralink's invasive
 electrodes or even Kernel's TD-fNIRS helmets. Facebook's 2019
-acquisition of CTRL-Labs and their continued investment in the
+acquisition of [CTRL-Labs](https://www.theverge.com/2019/9/23/20881032/facebook-ctrl-labs-acquisition-neural-interface-armband-ar-vr-deal) and their continued investment in the
 wrist-worn nerve sensor technology mean that the first directly sensed
 consumer neurons will be those that innervate the forearm and hand.
 
