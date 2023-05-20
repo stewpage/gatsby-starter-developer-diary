@@ -41,6 +41,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "UA-XXXXXXXXX-Y", // Google Universal Analytics (will be deprecated)
+          "G-XXXXXXXXXX", // Google Analytics 4
+        ],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
