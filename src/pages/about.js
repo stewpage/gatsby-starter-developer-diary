@@ -34,7 +34,7 @@ const AboutPage = (props) => {
                         <br />
                         <h4>About Me</h4>
                         <div>
-                            <p className="d-inline-block ml-3 w-75 align-top">I am a physician and neuroscientist, currently developing deep learning technology for medical images at Qure.ai. The best way to reach me is Twitter.</p>
+                            <p className="d-inline-block ml-3 w-75 align-top">I am a physician and neuroscientist, currently developing Health AI at Google. The best way to reach me is Twitter.</p>
                         </div>
                     </div>
                 </div>
