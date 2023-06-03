@@ -12,8 +12,7 @@ generates sentences that subjects heard in podcasts, and the second reconstructs
 visuals that they were shown — both using only fMRI readings. Together, they 
 show that generative AI techniques can compensate for some limitations of 
 fMRI to capture not only the literal words or pixels perceived but also their 
-semantic meanings.
-*
+semantic meanings.*
 
 While these papers were formally published just after generative AI entered 
 the mainstream consciousness through image generation from text ([Stability AI](https://stability.ai/), 
