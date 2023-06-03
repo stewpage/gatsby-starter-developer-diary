@@ -26,14 +26,12 @@ era work from 2009-2011, with the latent diffusion and large language models now
 In [Semantic reconstruction of continuous language from non-invasive brain recordings](https://www.nature.com/articles/s41593-023-01304-9), the researchers train an fMRI-to-paragraph generator for 3 participants, using fMRI data created while subjects listened to 16 hours of podcasts. Their decoder is able to capture the gist of the sentences at a level higher than chance, but the examples in the paper (image below) give the impression that the LLM is relying on its vast training corpora to to autocomplete a faint signal.
 
 ![example reconstructed sentences](../src/images/tang-example.png)
-<small class="caption">Example output from the decoder on the test dataset</small>
 
 ## Reconstructing Images
 
 The authors of [Stable Diffusion with Brain activity](https://sites.google.com/corp/view/stablediffusion-with-brain/) use the open source [Stable Diffusion](https://github.com/CompVis/stable-diffusion) model to reconstruct images from the [Natural Scenes fMRI Dataset](https://naturalscenesdataset.org/). They trained models to map from fMRI signals corresponding to the visual and semantic regions of the brain to the image and text components of the latent diffusion models. The results are spectacular, showing that the latent diffusion model combines the two components to produce images that are similar to the original both in meaning and in appearance.
 
 ![example reconstructed images](../src/images/takagi-example.png)
-<small class="caption">Example of reconstructed images from a single subject</small>
 
 ## Comparing the papers
 
@@ -51,6 +49,6 @@ The authors of [Stable Diffusion with Brain activity](https://sites.google.com/c
 
 &nbsp;
 
-&nbsp;
-
 These recent papers bringing AI and neuroscience worlds closer together were only possible because the 2022 versions of generative AI models were open access (like the Natural scenes fMRI dataset). If we had better neural interfaces (higher bandwidth, more fidelity and better temporal resolution) the models could do a lot more.
+
+&nbsp;
