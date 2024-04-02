@@ -1,5 +1,5 @@
 ---
-title: "Beyond Handwriting: Speculating on what is next for Ctrl Labs' Wristband Neural Interface?"
+title: "Beyond Handwriting: Speculating on what is next for Ctrl Labs' Wristband Neural Interface"
 tags: ["recording", "deepdive"]
 published: true
 featuredImage: /images/takagi-example.png
