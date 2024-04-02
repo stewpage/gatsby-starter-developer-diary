@@ -31,4 +31,9 @@ I'd love to understand why they didn't pick the typing task they had previously 
 ![](../src/images/ctrl-labs-keyboard-mock.png)
 <small class="caption">Still from an <a href="https://about.fb.com/news/2021/03/inside-facebook-reality-labs-wrist-based-interaction-for-the-next-computing-platform/"> ealier video</a> with a virtual keyboard</small>
 
-Other areas that Meta had discussed earlier, but this paper didn't touch on, were barely perceptible controls or the use of much subtler non-perceptible movements (accessible neuromotor information that isn't being utilized), and intention and co-adaptive learning, or using language models to correct human text. Meta has previously demonstrated and discussed these, with evidence that they have research devices and models capable of performing these tasks. Hopefully this is just a preview, and more is coming soon.
+Other areas that Meta had discussed earlier, but this paper didn't touch on, were 
+* barely perceptible controls or the use of much subtler non-perceptible movements (accessible neuromotor information that isn't being utilized), 
+* intention and co-adaptive learning, or 
+* using language models to correct human text.
+
+Meta has previously demonstrated and discussed these, with evidence that they have research devices and models capable of performing these tasks. Hopefully this is just a preview, and more is coming soon.
