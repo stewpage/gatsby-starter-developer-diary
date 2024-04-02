@@ -26,14 +26,14 @@ They showed that:
 
 The 3-page list of contributors indicates how much effort has gone into this since Ctrl Labs' acquisition in 2019. The demonstration of a neural interface that works without calibration is certainly noteworthy for the BCI world. However, there is still a significant gap between this paper and some earlier demos and teasers. In particular, their choice of a handwriting task, which achieves at best less than half the speed of typing, raises more questions.
 
-I'd love to understand why they didn't pick the typing task they had previously shown in a video. In the paper, the authors stress that their ground truth was approximate and relied on prompts and inferred timing. A typing task — perhaps with a touch keyboard — would have provided them with true ground truth that was more scalable. Typing would also provide much more open space for adaptive learning, envisioned in Meta’s [March 2021 post](https://about.fb.com/news/2021/03/inside-facebook-reality-labs-wrist-based-interaction-for-the-next-computing-platform/), “...imagine instead a virtual keyboard that learns and adapts to your unique typing style (typos and all) over time..“.
+I'd love to understand why they didn't pick the typing task they had previously shown in a video. In the paper, the authors stress that their ground truth was approximate and relied on prompts and inferred timing. A typing task — perhaps with a touch keyboard — would have provided them with true ground truth that was more scalable. Typing would also provide much more open space for adaptive learning, envisioned in Meta’s [March 2021 post](https://about.fb.com/news/2021/03/inside-facebook-reality-labs-wrist-based-interaction-for-the-next-computing-platform/), “...imagine instead a virtual keyboard that learns and adapts to your unique typing style (typos and all) over time..”.
 
 ![](../src/images/ctrl-labs-keyboard-mock.png)
 <small class="caption">Still from an <a href="https://about.fb.com/news/2021/03/inside-facebook-reality-labs-wrist-based-interaction-for-the-next-computing-platform/"> ealier video</a> with a virtual keyboard</small>
 
 Other areas that Meta had discussed earlier, but this paper didn't touch on, were 
 * barely perceptible controls or the use of much subtler non-perceptible movements (accessible neuromotor information that isn't being utilized), 
-* intention and co-adaptive learning, or 
+* intention and co-adaptive learning
 * using language models to correct human text.
 
-Meta has previously demonstrated and discussed these, with evidence that they have research devices and models capable of performing these tasks. Hopefully this is just a preview, and more is coming soon.
+Meta has previously demonstrated and discussed these, with evidence that they have research devices and models capable of performing these tasks. Hopefully this recent paper is just a start, and there's more coming soon.
