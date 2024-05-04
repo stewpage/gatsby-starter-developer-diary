@@ -14,8 +14,10 @@ const PostList = (props) => {
     const { currentPage, numPages } = props.pageContext
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
-    const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
-    const nextPage = (currentPage + 1).toString()
+    const prevPage = currentPage === 2 ? "/" : `/${currentPage - 1}`
+    // const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
+    const nextPage = currentPage === numPages ? null : currentPage + 1 === 2 ? "/" : `/${currentPage + 1}`
+    // const nextPage = (currentPage + 1).toString()
 
     const getTechTags = (tags) => {
         const techTags = []
