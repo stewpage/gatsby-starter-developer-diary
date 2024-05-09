@@ -23,7 +23,7 @@ Most manufacturers follow the following sequence: they petition FDA for [breakth
 Finally, most clinical trials are registered at clinicaltrials.gov for transparency (see Synchron’s [COMMAND trial](https://clinicaltrials.gov/study/NCT05035823) for example) so that the public can track the goals of the trial, the milestones, and progress — it also obliges them to report outcomes. Neuralink notably hasn’t registered their clinical trial. 
 
 ![](../src/images/BCI-funding-milestones.png)
-<small class="caption">Neuralink has raised the most funding but isn’t the furthest ahead on human clinical trials</small>
+<small class="caption">Chart showing funding, FDA milestoens and human clinical trials for the top 5 implanted BCI makers in 2024. Neuralink has raised the most funding but isn’t the furthest ahead on human clinical trials.</small>
 
 
 ## Blackrock
