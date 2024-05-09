@@ -23,7 +23,7 @@ Most manufacturers follow the following sequence: they petition FDA for [breakth
 Finally, most clinical trials are registered at clinicaltrials.gov for transparency (see Synchron’s [COMMAND trial](https://clinicaltrials.gov/study/NCT05035823) for example) so that the public can track the goals of the trial, the milestones, and progress — it also obliges them to report outcomes. Neuralink notably hasn’t registered their clinical trial. 
 
 ![](../src/images/BCI-funding-milestones.png)
-<small class="caption">Chart showing funding, FDA milestoens and human clinical trials for the top 5 implanted BCI makers in 2024. Neuralink has raised the most funding but isn’t the furthest ahead on human clinical trials.</small>
+<small class="caption">Chart showing funding, FDA milestones and human clinical trials for the top 5 implanted BCI makers in 2024. Neuralink has raised the most funding but isn’t the furthest ahead on human clinical trials.</small>
 
 
 ## Blackrock
@@ -33,7 +33,7 @@ The Utah array was first implanted in humans in 2004, but the company Blackrock 
 
 
 
-Blackrock has received [significant public funding](https://www.forbes.com/sites/naveenrao/2024/04/30/what-200-million-in-crypto-cash-means-for-blackrock-neurotech/), both directly through grants, and indirectly through funding for research trials at academic hospital systems across the US. Their revenue for most of the company’s life has been from an array of [research devices and systems](https://blackrockneurotech.com/products/) for scientists to study mice, primates, and human diseases like epilepsy. After a smaller ($10M) round of private funding in 202, [this new funding round](https://www.reuters.com/technology/crypto-company-tether-invests-200-mln-brain-chip-maker-blackrock-neurotech-2024-04-29/) from Tether will make the stablecoin firm a majority shareholder in Blackrock (with close to 60% shares owned). 
+Blackrock has received [significant public funding](https://www.forbes.com/sites/naveenrao/2024/04/30/what-200-million-in-crypto-cash-means-for-blackrock-neurotech/), both directly through grants, and indirectly through funding for research trials at academic hospital systems across the US. Their revenue for most of the company’s life has been from an array of [research devices and systems](https://blackrockneurotech.com/products/) for scientists to study mice, primates, and human diseases like epilepsy. After a smaller ($10M) round of private funding in 202, [this new funding round](https://www.reuters.com/technology/crypto-company-tether-invests-200-mln-brain-chip-maker-blackrock-neurotech-2024-04-29/) from Tether will make the stablecoin firm a majority shareholder in Blackrock. 
 
 ## Neuralink
 Neuralink’s story is well-chronicled. Founded by Elon Musk and a team of seven scientists and engineers in 2016, the first $100M came from Musk. Over the years the BCI firm has raised a total of $680 over 5 rounds from private investors, with the last round being $323 million in August 2023. Neuralink’s valuation is said to be in the billions, and the company has received no public funding. 
