@@ -1,5 +1,5 @@
 ---
-title: 'Venture Capital Funding for Brain Computer Interfaces outstrips DARPA dollars'
+title: 'Venture Capital Funding for Brain-Computer Interfaces outstrips DARPA dollars'
 tags: ["review", "funding"]
 published: true
 featuredImage: /images/BCI-funding-milestones.png
