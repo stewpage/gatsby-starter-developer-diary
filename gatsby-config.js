@@ -16,6 +16,7 @@ module.exports = {
     author: siteConfig.author.name,
     contacts: {
       twitter: siteConfig.author.contacts.twitter,
+      bluesky: siteConfig.author.contacts.bluesky,
       googlescholar: siteConfig.author.contacts.googlescholar,
       linkedin: siteConfig.author.contacts.linkedin,
       rss: siteConfig.author.contacts.rss,

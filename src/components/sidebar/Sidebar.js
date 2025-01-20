@@ -19,6 +19,7 @@ const Sidebar = () => {
                             author
                             contacts {
                                 twitter
+                                bluesky
                                 googlescholar
                                 linkedin
                                 rss

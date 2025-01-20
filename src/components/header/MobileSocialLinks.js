@@ -1,43 +1,53 @@
 import React from "react";
 import {
-    FaTwitterSquare,
-    FaGraduationCap,
-    FaLinkedin,
     FaRss
-
 } from "react-icons/fa"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import FontAwesome
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons"; // Import FontAwesome Twitter icon
+import { faBluesky } from "@fortawesome/free-brands-svg-icons"; // Import Bluesky icon
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGoogleScholar } from "@fortawesome/free-brands-svg-icons";
 import "../layout.css"
 
 const MobileSocialLinks = ({ contacts }) => {
     return (
         <div className="bottom-bar py-1">
-        <a className="text-info"
-            href={contacts.twitter}>
-            <span title="Twitter">
-                <FaTwitterSquare size={26} style={{ color: "#dedede" }} />
-            </span>
-        </a>
-            <a className=" text-primary"
-                href={contacts.linkedin}>
-                <span title="Linked In">
-                    <FaLinkedin size={26} style={{ color: "#dedede" }} />
+            {/* FontAwesome 6 Twitter Icon */}
+            <a className="text-info" href={contacts.twitter}>
+                <span title="Twitter">
+                    <FontAwesomeIcon icon={faXTwitter} size="lg" style={{ color: "#dedede" }} />
                 </span>
             </a>
-            <a className="text-success"
-                href={contacts.googlescholar}>
-                <span title="googleScholar">
-                    <FaGraduationCap size={26} style={{ color: "#dedede" }} />
+            
+            {/* LinkedIn Icon */}
+            <a className="text-info" href={contacts.linkedin}>
+                <span title="LinkedIn">
+                    <FontAwesomeIcon icon={faLinkedinIn} size="lg" style={{ color: "#dedede" }} />
                 </span>
             </a>
-            <a className="text-success"
-                href={contacts.rss}>
-                <span title="grss">
+            
+            {/* Google Scholar Icon */}
+            <a className="text-info" href={contacts.googlescholar}>
+                <span title="Google Scholar">
+                    <FontAwesomeIcon icon={faGoogleScholar} size="lg" style={{ color: "#dedede" }} />
+                </span>
+            </a>
+            
+            {/* RSS Icon */}
+            <a className="text-info" href={contacts.rss}>
+                <span title="RSS">
                     <FaRss size={26} style={{ color: "#dedede" }} />
                 </span>
             </a>
+
+            {/* Bluesky Icon */}
+            <a className="text-info" href={contacts.bluesky}>
+                <span title="Bluesky">
+                    <FontAwesomeIcon icon={faBluesky} size="lg" style={{ color: "#dedede" }} />
+                </span>
+            </a>
         </div>
-    )
-}
+    );
+};
 
 export default MobileSocialLinks;

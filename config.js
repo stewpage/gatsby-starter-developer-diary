@@ -10,6 +10,7 @@ module.exports = {
     bio: "Neuroscientist, physician and data scientist",
     contacts: {
       twitter: "https://x.com/_PoojaRao",
+      bluesky: 'https://bsky.app/profile/poojarao.bsky.social',
       googlescholar: "https://scholar.google.com/citations?user=cudpfV8AAAAJ&hl=en",
       linkedin: "https://www.linkedin.com/in/raopooja/",
       rss: "https://from-the-interface.com/rss.xml"

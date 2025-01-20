@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
             author
             contacts {
               twitter
+              bluesky
               googlescholar
               linkedin
               rss
