@@ -12,19 +12,19 @@ date: '2025-10-30'
 
 The positive results from the pivotal clinical trial of the PRIMA implant [were recently published](https://www.nejm.org/doi/full/10.1056/NEJMoa2501396) in New England Journal of Medicine, showing that the implant restored vision in patients with age-related macular degeneration. Importantly, this is the first vision prosthesis to provide patients with ‘form vision’ that allows them to recognize letters and read. Previous attempts at vision neural interfaces showed that the brain could be stimulated, but in response to visual stimuli patients would see ‘phosphenes’ or flashes of lights that were not correlated to the shape or form of the objects that they intended to see. The 2X2 mm, 378-pixel PRIMA implant also has the advantage of being wireless and powered through the same laser light that stimulates it. 
 
-![](../src/images/PRIMAVERA_video_still.png)
+![](/images/PRIMAVERA_video_still.png)
 <small class="caption">Still from an <a href="https://www.youtube.com/watch?v=5XQOgCn2WDs">video with results of the PRIMAVERA clinical trial</a> showing a patient filling out a crossword puzzle using the implant.</small>
 
 Science Corp acquired the PRIMA system in April 2024 for [€4 million](https://www.technologyreview.com/2025/10/20/1126065/this-retina-implant-lets-people-with-vision-loss-do-a-crossword-puzzle/) along with other assets and staff from the French company Pixium. Pixium in turn had licensed the technology in 2013, originally [patented by Daniel Palanker and team at Stanford in 2004](https://patents.google.com/patent/EP1670544A4/en). In all, that makes over 20 years of development cycle from the lab to being used in patients — a cycle that the Science team and other BCI companies will hope to shorten for future devices. 
 
-![](../src/images/PRIMA_implant.png)
+![](/images/PRIMA_implant.png)
 <small class="caption">The 2mmX2mm 379-pixel retinal implant and the glasses with the camera-infrared projector and camera. From the <a href="https://science.xyz/technologies/prima/">Science Corp website</a>.</small>
 
 ## The Science Eye and the biohybrid implant
 
 Science Corp’s first announcement was the ‘Science Eye’, a supra-retinal implant that delivered stimulation to the optogenetically modified retinal ganglion cells (RGCs) through a micro-LED display panel. The chip had an extremely high resolution for stimulation compared to the PRIMA, but the RGCs are further downstream (towards the brain) than the bipolar cells that the PRIMA system targets, and it hasn’t been shown that stimulating the RGCs can lead to ‘form vision’. Crucially, optogenetic modification has never been done in the human brain cells, so this implant would have been decades away from clinical use, for safety reasons. So it’s not surprising that they chose to prioritize PRIMA which is much closer to clinical trials and human use. 
 
-![](../src/images/biohybrid_implant_cortex.png)
+![](/images/biohybrid_implant_cortex.png)
 <small class="caption"> Microscopy image showing axons (green) from the implant deep into the cortex(blue nuclei). Image from the <a href="https://www.biorxiv.org/content/10.1101/2024.11.22.624907v1.full.pdf">preprint paper</a>.</small>
 
 However, the company is still betting on optogenetics through their work on the biohybrid implant. In a [2024 preprint](https://www.biorxiv.org/content/10.1101/2024.11.22.624907v1) describing their research on the biohybrid probe, they proved the concept that neurons grown outside the body could be made to communicate with brain cells. The study allowed the team to conclude that mice implanted with a biohybrid implant were able to respond to the optical stimulation of the implanted neurons. Although the study had several caveats — the change in behavior in the mice was not statistically significant; the optical stimulation was extremely strong; and there was no recording of activity originating from inside the brain indicating a 2-way interface — the concept is promising and is likely to make its way to humans before technology that requires directly modifying human brain cells to respond to light.  
@@ -41,7 +41,7 @@ Science Corp’s ‘foundry’ is a MEMS fabrication facility, offering research
 Finally, the startup has some off-the-shelf products for labs that work in similar areas. These include programmable ASICs for optical stimulation and electric recording, a headstage, and a software toolkit that works with their system. 
 
 ## The Science Corp portfolio
-![](../src/images/science_corp_portfolio.png)
+![](/images/science_corp_portfolio.png)
 <small class="caption">Science Corp’s portfolio of assets.</small>
 
 The company describes itself as being ‘fully vertically integrated’. An alternate way to phrase it is that Science Corp has a portfolio of investments in BCIs and BCI-adjacent neuroscience research at various stages in the pipeline. Their position is unique, and hard to compare their trajectory to the more established neurotech companies because each of their bets has a slightly different business model and a vastly varying time horizon to maturity. The programmable ASICs, the high-throughput channelrhodopsin screen and the new WiChR F240A channelrhodopsin are assets that they could commercialize early via neuroscience labs and startups, while also using the technology to accelerate their implants. The biohybrid probe is a very early prototype and it will likely be a decade or more before this comes to human trials.
