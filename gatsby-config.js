@@ -25,7 +25,14 @@ module.exports = {
   },
   plugins: [
     `gatsby-transformer-sharp`,
-    "gatsby-plugin-open-graph-images",
+    {
+      resolve: "gatsby-plugin-open-graph-images",
+      options: {
+        // Set a longer timeout for Puppeteer to prevent build failures
+        // due to browser connection issues on some environments.
+        timeout: 60000,
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
