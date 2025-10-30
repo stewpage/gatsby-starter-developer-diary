@@ -7,11 +7,10 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, image, excerpt}) {
+function Seo({ description, lang, meta, title, image, excerpt}) {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(
     graphql`
@@ -46,79 +45,56 @@ function SEO({ description, lang, meta, title, image, excerpt}) {
    }
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-
-      meta={[
-        {
-          name: `description`,
-          content: seo.description,
-        },
-        {
-          property: `og:title`,
-          content: seo.title,
-        },
-        {
-          property: `og:description`,
-          content: seo.description,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:image`,
-          content: seo.image,
-        },
-        {
-          name: `twitter:description`,
-          content: seo.description,
-        },
-        {
-          property: `og:image`,
-          content: seo.image,
-        },
-        {
-          property: `og:image:width`,
-          content: "1200",
-        },
-        {
-          property: `og:image:height`,
-          content: "630",
-        },
-      ].concat(meta)}
-    />
-
+    <>
+      <title>{`${seo.title} | ${site.siteMetadata.title}`}</title>
+      <meta name="description" content={seo.description} />
+      <meta property="og:title" content={seo.title} />
+      <meta property="og:description" content={seo.description} />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content={site.siteMetadata.author} />
+      <meta name="twitter:title" content={seo.title} />
+      <meta name="twitter:image" content={seo.image} />
+      <meta name="twitter:description" content={seo.description} />
+      <meta property="og:image" content={seo.image} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      {meta.map((m, index) => (
+        <meta key={index} {...m} />
+      ))}
+    </>
   )
 }
 
-SEO.defaultProps = {
+Seo.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
 }
 
-SEO.propTypes = {
+Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 }
 
-export default SEO
+export default Seo
+
+export const Head = ({ 
+  description, 
+  lang, 
+  meta, 
+  title, 
+  image, 
+  excerpt 
+}) => (
+  <Seo 
+    description={description} 
+    lang={lang} 
+    meta={meta} 
+    title={title} 
+    image={image} 
+    excerpt={excerpt} 
+  />
+);

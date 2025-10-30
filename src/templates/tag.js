@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css"
 import "../pages/index.css"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
 import TechTagPost from "../components/tags/TechTagPost"
 
@@ -33,7 +33,7 @@ const Tag = ({ pageContext, data }) => {
 
     return (
         <Layout>
-            <SEO title="Home" keywords={[`brain computer interface `, `BCI`, `neuroscience`, `blog`, `computation`, `neural interface`]} />
+            <Seo title="Home" keywords={[`brain computer interface `, `BCI`, `neuroscience`, `blog`, `computation`, `neural interface`]} />
             <div className="index-main">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />

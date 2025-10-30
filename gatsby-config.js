@@ -24,7 +24,6 @@ module.exports = {
     labels: siteConfig.labels,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     "gatsby-plugin-open-graph-images",
     `gatsby-plugin-sharp`,
@@ -36,9 +35,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID
+        trackingIds: [
+          process.env.GA_TRACKING_ID, // Google Analytics / GA
+        ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
       },
     },
     {
@@ -153,7 +158,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-netlify-cms`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
