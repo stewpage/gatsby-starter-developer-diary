@@ -54,6 +54,14 @@ border: none;
 
 
 
+.post-main figure {
+  text-align: center;
+}
+
+.post-main .caption {
+  text-align: center;
+}
+
 @media only screen and (max-width: 850px) {
   .post-page-main {
       display: grid;
